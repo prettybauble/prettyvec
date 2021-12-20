@@ -22,5 +22,5 @@
 
 </div>
 
-[Docs]:https://prettybauble.github.io/prettystr/theindex.html
-[Tests]:https://github.com/prettybauble/prettystr/tree/main/tests
+[Docs]:https://prettybauble.github.io/prettyvec/theindex.html
+[Tests]:https://github.com/prettybauble/prettyvec/tree/main/tests
