@@ -1,5 +1,5 @@
 import
-  prettytmpl/tmpl
+  prettyvec/vec2
 
 export
-  tmpl
+  vec2
