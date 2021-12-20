@@ -1,8 +1,8 @@
 <div align="center">
   
-# prettytmpl
-### template for prettybauble repositories
-[![tests](https://github.com/prettybauble/prettytmpl/actions/workflows/test.yml/badge.svg)](https://github.com/prettybauble/prettytmpl/actions/workflows/test.yml)
+# prettyvec
+### Small library for working with vectors.
+[![tests](https://github.com/prettybauble/prettyvec/actions/workflows/test.yml/badge.svg)](https://github.com/prettybauble/prettyvec/actions/workflows/test.yml)
 
 #### Stable version - 0.0.1
 
@@ -12,9 +12,15 @@
 ### Install
 -
   ```bash
-  nimble install prettylib
+  nimble install github.com/prettybauble/prettyvec
   ```
--
-  ```bash
-  nimble install github.com/prettybauble/prettytmpl
-  ```
+
+<div align="center">
+
+|[Docs][]|[Tests][]|
+|--------|---------|
+
+</div>
+
+[Docs]:https://prettybauble.github.io/prettystr/theindex.html
+[Tests]:https://github.com/prettybauble/prettystr/tree/main/tests

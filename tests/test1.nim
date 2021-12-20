@@ -1,7 +1,8 @@
 import
-  prettytmpl,
+  prettyvec,
   unittest
 
-suite "Suite":
-  test "hello":
-    prettyhello()
+
+suite "Vec2":
+
+  test ""

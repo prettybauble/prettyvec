@@ -1,8 +1,8 @@
 [Package]
-name = "prettytmpl"
+name = "prettyvec"
 author = "prettybauble"
 version = "0.0.1"
-description = "Template for prettybauble repositories"
+description = "Small library for working with vectors"
 license = "MIT"
 srcDir = "src"
 
