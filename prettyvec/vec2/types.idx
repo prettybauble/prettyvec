@@ -1,0 +1,11 @@
+Vec2Ref	prettyvec/vec2/types.html#Vec2Ref	types: Vec2Ref	
+Vec2Obj	prettyvec/vec2/types.html#Vec2Obj	types: Vec2Obj	
+initVec2	prettyvec/vec2/types.html#initVec2	types: initVec2(): Vec2Obj	
+initVec2	prettyvec/vec2/types.html#initVec2,float	types: initVec2(xy: float): Vec2Obj	
+initVec2	prettyvec/vec2/types.html#initVec2,float,float	types: initVec2(x, y: float): Vec2Obj	
+newVec2	prettyvec/vec2/types.html#newVec2	types: newVec2(): Vec2Ref	
+newVec2	prettyvec/vec2/types.html#newVec2,float	types: newVec2(xy: float): Vec2Ref	
+newVec2	prettyvec/vec2/types.html#newVec2,float,float	types: newVec2(x, y: float): Vec2Ref	
+vec2	prettyvec/vec2/types.html#vec2	types: vec2(): Vec2Obj	
+vec2	prettyvec/vec2/types.html#vec2,float	types: vec2(xy: float): Vec2Obj	
+vec2	prettyvec/vec2/types.html#vec2,float,float	types: vec2(x, y: float): Vec2Obj	

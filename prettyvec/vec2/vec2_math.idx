@@ -1,0 +1,15 @@
+`==`	prettyvec/vec2/vec2_math.html#==,Vec2Obj,Vec2Obj	vec2_math: `==`(a, b: Vec2Obj): bool	
+`+`	prettyvec/vec2/vec2_math.html#+,Vec2Obj,Vec2Obj	vec2_math: `+`(a, b: Vec2Obj): Vec2Obj	
+`-`	prettyvec/vec2/vec2_math.html#-,Vec2Obj,Vec2Obj	vec2_math: `-`(a, b: Vec2Obj): Vec2Obj	
+`/`	prettyvec/vec2/vec2_math.html#/,Vec2Obj,Vec2Obj	vec2_math: `/`(a, b: Vec2Obj): Vec2Obj	
+`*`	prettyvec/vec2/vec2_math.html#*,Vec2Obj,Vec2Obj	vec2_math: `*`(a, b: Vec2Obj): Vec2Obj	
+`-`	prettyvec/vec2/vec2_math.html#-,Vec2Obj,float	vec2_math: `-`(a: Vec2Obj; b: float): Vec2Obj	
+`+`	prettyvec/vec2/vec2_math.html#+,Vec2Obj,float	vec2_math: `+`(a: Vec2Obj; b: float): Vec2Obj	
+`/`	prettyvec/vec2/vec2_math.html#/,Vec2Obj,float	vec2_math: `/`(a: Vec2Obj; b: float): Vec2Obj	
+`*`	prettyvec/vec2/vec2_math.html#*,Vec2Obj,float	vec2_math: `*`(a: Vec2Obj; b: float): Vec2Obj	
+abs	prettyvec/vec2/vec2_math.html#abs,Vec2Obj	vec2_math: abs(a: Vec2Obj): Vec2Obj	
+len	prettyvec/vec2/vec2_math.html#len,Vec2Obj	vec2_math: len(a: Vec2Obj): float	
+pow	prettyvec/vec2/vec2_math.html#pow,Vec2Obj,float	vec2_math: pow(a: Vec2Obj; power: float): Vec2Obj	
+sqrt	prettyvec/vec2/vec2_math.html#sqrt,Vec2Obj	vec2_math: sqrt(a: Vec2Obj): Vec2Obj	
+norm	prettyvec/vec2/vec2_math.html#norm,Vec2Obj	vec2_math: norm(a: Vec2Obj): Vec2Obj	
+dot	prettyvec/vec2/vec2_math.html#dot,Vec2Obj,Vec2Obj	vec2_math: dot(a, b: Vec2Obj): float	
