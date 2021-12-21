@@ -49,6 +49,11 @@ func len*(a: Vec2Obj): float =
 func pow*(a: Vec2Obj, power: float): Vec2Obj =
   vec2(pow(a.x, power), pow(a.y, power))
 
+func rotate*(a: Vec2Obj, angle: float): Vec2Obj =
+  ## Rotates vector by angle in degrees.
+  vec2(cos(angle)*a.x - sin(angle)*a.y,
+       sin(angle)*a.x + cos(angle)*a.y)
+
 func sqrt*(a: Vec2Obj): Vec2Obj =
   vec2(sqrt(a.x), sqrt(a.y))
 
@@ -62,5 +67,15 @@ func norm*(a: Vec2Obj): Vec2Obj =
 func dot*(a, b: Vec2Obj): float =
   ## Returns result of dot product.
   a.x*b.x + a.y*b.y
+
+proc angleTo*(a, b: Vec2Obj): float =
+  arccos(a.dot(b))
+
+proc distance*(a, b: Vec2Obj): float =
+  sqrt((b.x - a.x)*(b.x - a.x) + (b.y - a.y)*(b.y - a.y))
+
+proc directionTo*(a, b: Vec2Obj): Vec2Obj =
+  ## Returns normalized direction to other vector2.
+  vec2(b.x - a.x, b.y - a.y).norm()
 
 {.pop.}
