@@ -10,6 +10,10 @@
 abs	prettyvec/vec2/vec2_math.html#abs,Vec2Obj	vec2_math: abs(a: Vec2Obj): Vec2Obj	
 len	prettyvec/vec2/vec2_math.html#len,Vec2Obj	vec2_math: len(a: Vec2Obj): float	
 pow	prettyvec/vec2/vec2_math.html#pow,Vec2Obj,float	vec2_math: pow(a: Vec2Obj; power: float): Vec2Obj	
+rotate	prettyvec/vec2/vec2_math.html#rotate,Vec2Obj,float	vec2_math: rotate(a: Vec2Obj; angle: float): Vec2Obj	
 sqrt	prettyvec/vec2/vec2_math.html#sqrt,Vec2Obj	vec2_math: sqrt(a: Vec2Obj): Vec2Obj	
 norm	prettyvec/vec2/vec2_math.html#norm,Vec2Obj	vec2_math: norm(a: Vec2Obj): Vec2Obj	
 dot	prettyvec/vec2/vec2_math.html#dot,Vec2Obj,Vec2Obj	vec2_math: dot(a, b: Vec2Obj): float	
+angleTo	prettyvec/vec2/vec2_math.html#angleTo,Vec2Obj,Vec2Obj	vec2_math: angleTo(a, b: Vec2Obj): float	
+distance	prettyvec/vec2/vec2_math.html#distance,Vec2Obj,Vec2Obj	vec2_math: distance(a, b: Vec2Obj): float	
+directionTo	prettyvec/vec2/vec2_math.html#directionTo,Vec2Obj,Vec2Obj	vec2_math: directionTo(a, b: Vec2Obj): Vec2Obj	

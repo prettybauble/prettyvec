@@ -1,0 +1,19 @@
+`==`	prettyvec/vec3/vec3_math.html#==,Vec3Obj,Vec3Obj	vec3_math: `==`(a, b: Vec3Obj): bool	
+`+`	prettyvec/vec3/vec3_math.html#+,Vec3Obj,Vec3Obj	vec3_math: `+`(a, b: Vec3Obj): Vec3Obj	
+`-`	prettyvec/vec3/vec3_math.html#-,Vec3Obj,Vec3Obj	vec3_math: `-`(a, b: Vec3Obj): Vec3Obj	
+`/`	prettyvec/vec3/vec3_math.html#/,Vec3Obj,Vec3Obj	vec3_math: `/`(a, b: Vec3Obj): Vec3Obj	
+`*`	prettyvec/vec3/vec3_math.html#*,Vec3Obj,Vec3Obj	vec3_math: `*`(a, b: Vec3Obj): Vec3Obj	
+`-`	prettyvec/vec3/vec3_math.html#-,Vec3Obj,float	vec3_math: `-`(a: Vec3Obj; b: float): Vec3Obj	
+`+`	prettyvec/vec3/vec3_math.html#+,Vec3Obj,float	vec3_math: `+`(a: Vec3Obj; b: float): Vec3Obj	
+`/`	prettyvec/vec3/vec3_math.html#/,Vec3Obj,float	vec3_math: `/`(a: Vec3Obj; b: float): Vec3Obj	
+`*`	prettyvec/vec3/vec3_math.html#*,Vec3Obj,float	vec3_math: `*`(a: Vec3Obj; b: float): Vec3Obj	
+abs	prettyvec/vec3/vec3_math.html#abs,Vec3Obj	vec3_math: abs(a: Vec3Obj): Vec3Obj	
+len	prettyvec/vec3/vec3_math.html#len,Vec3Obj	vec3_math: len(a: Vec3Obj): float	
+pow	prettyvec/vec3/vec3_math.html#pow,Vec3Obj,float	vec3_math: pow(a: Vec3Obj; power: float): Vec3Obj	
+sqrt	prettyvec/vec3/vec3_math.html#sqrt,Vec3Obj	vec3_math: sqrt(a: Vec3Obj): Vec3Obj	
+norm	prettyvec/vec3/vec3_math.html#norm,Vec3Obj	vec3_math: norm(a: Vec3Obj): Vec3Obj	
+dot	prettyvec/vec3/vec3_math.html#dot,Vec3Obj,Vec3Obj	vec3_math: dot(a, b: Vec3Obj): float	
+cross	prettyvec/vec3/vec3_math.html#cross,Vec3Obj,Vec3Obj	vec3_math: cross(a, b: Vec3Obj): float	
+angleTo	prettyvec/vec3/vec3_math.html#angleTo,Vec3Obj,Vec3Obj	vec3_math: angleTo(a, b: Vec3Obj): float	
+distance	prettyvec/vec3/vec3_math.html#distance,Vec3Obj,Vec3Obj	vec3_math: distance(a, b: Vec3Obj): float	
+directionTo	prettyvec/vec3/vec3_math.html#directionTo,Vec3Obj,Vec3Obj	vec3_math: directionTo(a, b: Vec3Obj): Vec3Obj	
