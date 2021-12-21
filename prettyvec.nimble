@@ -1,7 +1,7 @@
 [Package]
 name = "prettyvec"
 author = "prettybauble"
-version = "0.0.1"
+version = "1.0.0"
 description = "Small library for working with vectors"
 license = "MIT"
 srcDir = "src"

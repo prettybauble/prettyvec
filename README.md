@@ -4,7 +4,7 @@
 ### Small library for working with vectors.
 [![tests](https://github.com/prettybauble/prettyvec/actions/workflows/test.yml/badge.svg)](https://github.com/prettybauble/prettyvec/actions/workflows/test.yml)
 
-#### Stable version - 0.0.1
+#### Stable version - 1.0.0
 
 </div>
 
