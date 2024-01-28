@@ -27,7 +27,7 @@ func `*`*(a, b: Vec2Obj): Vec2Obj =
 
 
 func `-`*(a: Vec2Obj): Vec2Obj =
-  ## negates the vector
+  ## Negates the vector
   vec2(-a.x, -a.y)
 
 func `-`*(a: Vec2Obj, b: float): Vec2Obj =
