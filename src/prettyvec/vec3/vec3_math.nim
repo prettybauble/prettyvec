@@ -26,6 +26,10 @@ func `*`*(a, b: Vec3Obj): Vec3Obj =
   vec3(a.x * b.x, a.y * b.y, a.z * b.z)
 
 
+func `-`*(a: Vec3Obj): Vec3Obj =
+  ## Negates the vector
+  vec3(-a.x, -a.y, -a.z)
+
 func `-`*(a: Vec3Obj, b: float): Vec3Obj =
   vec3(a.x - b, a.y - b, a.z - b)
 

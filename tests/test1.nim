@@ -17,6 +17,8 @@ suite "Vec2":
     assert vec2(1) - 5 == vec2(-4)
     assert vec2(1) / 5 == vec2(0.2)
 
+    assert -vec2(1, -2) == vec2(-1, 2)
+
   test "basic math":
     assert sqrt(vec2(4)) == vec2(2)
     assert pow(vec2(2), 3) == vec2(8, 8)
@@ -41,6 +43,8 @@ suite "Vec3":
     assert vec3(1) * 5 == vec3(5)
     assert vec3(1) - 5 == vec3(-4)
     assert vec3(1) / 5 == vec3(0.2)
+
+    assert -vec3(1, -2, 3) == vec3(-1, 2, -3)
 
   test "basic math":
     assert sqrt(vec3(4)) == vec3(2)

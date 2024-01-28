@@ -26,6 +26,10 @@ func `*`*(a, b: Vec2Obj): Vec2Obj =
   vec2(a.x * b.x, a.y * b.y)
 
 
+func `-`*(a: Vec2Obj): Vec2Obj =
+  ## Negates the vector
+  vec2(-a.x, -a.y)
+
 func `-`*(a: Vec2Obj, b: float): Vec2Obj =
   vec2(a.x - b, a.y - b)
 
